@@ -3,7 +3,7 @@
 
     <groupId>cn.buk.api.pay</groupId>
     <artifactId>api-weixinpay</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>api-weixinpay</name>
@@ -105,6 +105,6 @@
         <connection>scm:git:https://github.com/Yunfeng/api-weixinpay.git</connection>
         <developerConnection>scm:git:https://github.com/Yunfeng/api-weixinpay.git</developerConnection>
         <url>https://github.com/Yunfeng/api-weixinpay</url>
-        <tag>api-weixinpay-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
