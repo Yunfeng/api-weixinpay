@@ -87,4 +87,25 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>nexus releases repository</name>
+            <url>http://free2.buk.cn:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>nexus snapshots repository</name>
+            <url>http://free2.buk.cn:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/Yunfeng/api-weixinpay.git</connection>
+        <developerConnection>scm:git:https://github.com/Yunfeng/api-weixinpay.git</developerConnection>
+        <url>https://github.com/Yunfeng/api-weixinpay</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
